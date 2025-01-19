@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	All right reserved to Claudio Eghosasere Enobas Ese
+-->
+<html>
+<head>
+	<title>Data Migration</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+</head>
+
+<body class="is-preload"></body>
+<header class="custom-header">
+	<div class="inner">
+		<ul class="icons">
+			<li>Claudio Eghosasere Enobas Ese</li>
+			<li><a href="https://www.linkedin.com/in/claudioenobas/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/claudioen" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto:claudioenobas@gmail.com" target="_top" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</div>
+</header>
+
+<br/>
+<div class="container">
+	<h1 class="article-title">Optimizing Data Migration and BI on Azure: Lessons and Opportunities</h1>
+
+	<p class="article-subtitle">
+		Streamlining Data Integration and Visualization in Azure.
+	
+	<div class="custom-tag">
+		<span class="tags">Data Migration</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Azure Data Factory</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Cost Optimisation</span>
+	</div>
+	</p>
+	<div class="center-responsive">
+		<img src="images/articles/migration.jpg" alt="OEE" class="fixed-image" style="width: 1400px; height: 200px;"/>
+	</div><br/>
+	<section>
+
+	<p class="article-content">
+		<section>
+		For modern businesses, the key to data-driven decision-making is migrating operational data from diverse systems to a unified, scalable platform. In one of the projects of my experience at Copan Group, I participated in the design and implementation of an end-to-end data pipeline. The solution utilized Azure Data Factory for the migration and transformation of operational data, stored it in SQL Server databases, and used Power BI for advanced visualization. While effective, the project also had opportunities for optimization, especially in seeking out more cost-efficient Azure tools.
+		<p><h2>From Silos to Insights: The Data Challenge</h2>
+		<p class="article-content">
+			The project started with a pretty clear but complex challenge in that operational data was stored across several on-premise databases, flat files, and cloud applications. This fragmentation contributed to silos of data.<br/>
+			The aim was to establish a strong and centralized pipeline able to:
+			<ol>
+				<li>Simplify the process of integrating multi-sourced data into one uninterrupted flow.</li>
+				<li>Perform transformations for consistency and usability.</li>
+				<li>Real-time reporting and insights directly through Power BI dashboards.</li>
+			</ol>
+			At the heart of this effort was the need to make the solution cost-effective, scalable, and maintainable for future needs.
+		</p>
+		</section>
+
+		<section>
+		<h2>Building the Solution: The Azure Data Pipeline</h2>
+		<p class="article-content">
+			Our implementation used Microsoft Azure's ecosystem for data integration and analytics. Here's how we addressed each stage of the pipeline: <br/>
+			<h3>1. Data Ingestion with Azure Data Factory</h3>
+			<ul>
+				<li><strong>Approach:</strong> Azure Data Factory (ADF) was configured to pull data from a variety of sources, including on-premises systems via the Self-Hosted Integration Runtime and APIs for cloud-based applications.</li>
+				<li><strong>Challenge Solved:</strong> This eliminated the need for manual data extraction and ensured that data ingestion was automated and secure.</li>
+			</ul>
+
+			<h3>2. Data Transformation</h3>
+			<ul>
+				<li><strong>Tool:</strong> Using ADF Data Flows, we applied transformations such as data cleansing, deduplication, and schema mapping.</li>
+				<li><strong>Why ADF?</strong> It allowed us to perform these operations within the pipeline, reducing the need for external tools while maintaining performance.</li>
+			</ul>
+
+			<h3>3. Data Storage in SQL Server</h3>
+			<ul>
+				<li><strong>Setup:</strong> Transformed data was loaded into SQL Server databases hosted on Azure Virtual Machines.</li>
+				<li><strong>Rationale:</strong> SQL Server was chosen for its compatibility with existing systems and the ability to support complex queries for reporting.</li>
+			</ul>
+
+			<h3>4. Visualization with Power BI</h3>
+			<ul>
+				<li><strong>Connection:</strong> Power BI connected directly to the SQL Server database to create interactive dashboards. Scheduled refreshes ensured reports were always up-to-date.</li>
+				<li><strong>Outcome:</strong> This provided business users with real-time insights, empowering data-driven decision-making.</li>
+			</ul>
+		</section>
+		<section>
+		<h2>Achievements and Outcomes</h2>
+		<p class="article-content">
+			The project delivered significant value:
+			<ul>
+				<li><strong>Unified Data Platform:</strong> We eliminated data silos, creating a centralized repository for operational data.</li>
+				<li><strong>Actionable Insights:</strong> Real-time, interactive dashboards would unlock faster time to insight for decision-makers.</li>
+				<li><strong>Scalable Workflow:</strong> Azure allowed the solution to scale with growing data volumes and cause minimal disruption.</li>
+			</ul>
+		</section>
+
+		<section>
+		<h2>Lessons Learnt and Areas of Improvement</h2>
+		<p class="article-content">
+			The solution worked, but there is always room for optimization:
+			<h3>1. Azure Synapse Analytics</h3>
+			<ul>
+				<li><strong>Why Synapse?:</strong> It provides a highly scalable and cost-effective option compared to SQL Server for storing and querying data.</li>
+				<li><strong>Potential Benefit:</strong> With Synapse, we could have implemented serverless pools, reducing costs to a query-only payment rather than hosting SQL Server on VMs.</li>
+			</ul>
+
+			<h3>2. Azure Data Lake Storage</h3>
+			<ul>
+				<li><strong>Why Data Lake?:</strong> Data Lake provides flexibility in storing raw and transformed data. It integrates seamlessly with Synapse and Databricks, allowing for advanced analytics and machine learning.</li>
+			</ul>
+
+			<h3>3. Improving Monitoring and Cost Management</h3>
+			<ul>
+				<li><strong>Tool:</strong> Azure Monitor and Cost Management would have allowed us to better track the performance of pipelines and resource usage.</li>
+				<li><strong>Outcome:</strong> This will enable us to find bottlenecks, reduce over-provisioning, and lower overall costs.</li>
+			</ul>
+
+			<h3>4. Orchestration Options</h3>
+			<ul>
+				<li><strong>Tool:</strong> While ADF handled data movement well, Azure Logic Apps could have enhanced workflow orchestration with real-time notifications and advanced error handling.</li>
+			</ul>
+
+		</section>
+		<section>
+		<h2>Looking Ahead: Modern Tools and Fabric Integration</h2>
+		<p class="article-content">
+			This project predated the introduction of Microsoft Fabric, which now offers an integrated environment for data pipelines, storage, and visualization. Fabric could have simplified the architecture further by combining the capabilities of ADF, SQL Server, and Power BI into a single ecosystem with unified management and billing.
+
+			For organizations looking to implement similar solutions today, evaluating Fabric or other modern tools can lead to significant cost savings and streamlined operations.
+		</p>
+		</section><br/>
+		<section>
+		<h2>Conclusion</h2>
+		This project was a valuable learning experience in leveraging Azure’s tools for data migration, storage, and visualization. It demonstrated the potential of a centralized platform to drive actionable insights while highlighting the importance of continuous evaluation and optimization.
+
+		By exploring modern alternatives like Azure Synapse, Data Lake Storage, and even Microsoft Fabric, businesses can further enhance their data workflows, ensuring they remain cost-efficient, scalable, and future-proof.
+		</section>
+	</p>
+	</section>
+<br/><br/><br/>
+	<footer>
+		<p>&copy; 2025 Claudio Eghosasere Enobas Ese</p>
+	</footer>
+</body>
+
+</html>

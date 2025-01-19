@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	All right reserved to Claudio Eghosasere Enobas Ese
+-->
+<html>
+<head>
+	<title>National Rail</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+</head>
+
+<body class="is-preload"></body>
+<header class="custom-header">
+	<div class="inner">
+		<ul class="icons">
+			<li>Claudio Eghosasere Enobas Ese</li>
+			<li><a href="https://www.linkedin.com/in/claudioenobas/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/claudioen" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto:claudioenobas@gmail.com" target="_top" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</div>
+</header>
+
+<br/>
+<div class="container">
+	<h1 class="article-title">National Rail Analysis</h1>
+
+	<p class="article-subtitle">
+		The project focus on NationalRail's data for the identification of key insights about how the trains work in England, Scotland, and Wales.
+	
+	<div class="custom-tag">
+		<span class="tags">Excel</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Power BI</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Python</span>
+	</div>
+	</p>
+	<div class="center-responsive">
+		<img src="images/projects/national_rail.jpg" alt="National Rail Analysis" class="fixed-image" style="width: 1400px; height: 200px;"/>
+	</div><br/>
+	<section>
+
+	<h2>Objectives</h2>
+	<p class="article-content">
+		The main objectives of this project are:
+		<ol>
+			<li>Discovering busy routes</li>
+			<li>Pinpointing peak travel times</li>
+			<li>Analyzing ticket revenues</li>
+			<li>Assessing on-time performance</li>
+		</ul>
+	</p>
+	</section>
+
+	<section>
+	<h2>Data Description</h2>
+	<p class="article-content">
+		The dataset contains mock train ticket sales for National Rail in the UK, covering the period from January to April 2024. It includes detailed information on:
+		<ul>
+			<li><strong>Type of Ticket:</strong> The category of each ticket sold.</li>
+			<li><strong>Journey Date & Time:</strong> The specific date and time for each journey.</li>
+			<li><strong>Departure & Arrival Stations:</strong> The starting and ending points of each journey.</li>
+			<li><strong>Ticket Price:</strong> The cost of each ticket.</li>
+			<li><strong>Additional Details:</strong> Any other relevant information associated with the train ticket sales. The dataset was initially fairly clean but incomplete, lacking the coordinates for various railway stations. These coordinates were obtained from the following source: <a href="https://github.com/ellcom/UK-Train-Station-Locations/blob/master/uk-train-stations.csv" target="_blank">UK Train Station Locations</a></li>
+		</ul>
+	</p>
+	</section>
+
+	<section>
+		<h2>Analysis</h2>
+		<p class="article-content">
+			<div class="center-responsive">
+				<img src="images/projects/nationalrailproject_.png" alt="Centered Image" style="width: 700px; height: 400px;"/>
+			</div><br/>
+			<ol>
+				<li><strong>Number of Journeys:</strong> A KPI displaying the total number of journeys.</li>
+				<li><strong>Revenues:</strong> A KPI showing the total revenue generated.</li>
+				<li><strong>Number of Delays:</strong> A KPI indicating the total number of delays.</li>
+				<li><strong>Peak Travel Time:</strong> A line chart illustrating the time ranges (e.g., 18:00 - 19:00) with peak travel activity.</li>
+				<li><strong>Most Popular Routes:</strong> A table listing the most frequently traveled routes.</li>
+				<li><strong>Number of Delays by Reason:</strong> A horizontal histogram presenting the total number of delays categorized by their reasons, also indicating if a refund request was made by the customer.</li>
+				<li><strong>Ticket Price by Route:</strong> A table detailing the ticket prices for each route, segmented by Ticket Class (First and Second Class) and Ticket Type (Advance, Anytime, and Off-Peak).</li>
+				<li><strong>Visual Map:</strong> A visual representation of all the routes, providing a geographic overview of the train journeys.</li>
+			</ul>
+		</p>
+		</section>
+
+		<section>
+			<h2>Results</h2>
+			<p class="article-content">
+				<ol>
+					<li><strong>Most Popular Route:</strong> The route from Manchester Piccadilly to Liverpool Lime Street is the most popular, with 90.06% of trains arriving on time. The distance between these stations is approximately 50.19 km.</li>
+					<li><strong>Peak Travel Times:</strong> Peak travel periods are observed between 06:00 - 07:00 and 18:00 - 19:00.</li>
+					<li><strong>Revenue:</strong> National Rail earned approximately £1 million from train ticket sales over the four-month period.</li>
+					<li><strong>Most Punctual Route:</strong> The route from Liverpool Lime Street to Leeds, approximately 103 km long, is the most punctual, with no recorded delays. This conclusion is supported by the number of journeys made on this route.</li>
+				</ul>
+			</p>
+			</section>
+
+			<section>
+				<h2>Future Work</h2>
+				<p class="article-content">
+					<ol>
+						<li>Improve Data Collection:
+							<ul>
+								<li><strong>Environmental Data:</strong> Integrate weather and environmental data to better understand the impact on train delays and service disruptions.</li>
+							</ul></li>
+						<li>Predictive Analytics
+							<ul>
+								<li><strong>Delay Prediction:</strong> Develop predictive models to forecast train delays based on historical data and real-time factors.</li>
+							</ul>
+						</li>
+						<li>Route Optimisation
+							<ul>
+								<li><strong>Efficiency Analysis:</strong> Analyze and optimize train schedules to reduce travel times and improve punctuality.</li>
+							</ul>
+						</li>
+					</ol>
+				</p>
+				<p>The entire project can be downloaded from the this <a href="https://github.com/claudioen/National-Rail-Project" target="_blank">repository</a> on Github.</p>
+				</section>
+
+<br/><br/><br/>
+	<footer>
+		<p>&copy; 2025 Claudio Eghosasere Enobas Ese</p>
+	</footer>
+</body>
+
+</html>

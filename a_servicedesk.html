@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	All right reserved to Claudio Eghosasere Enobas Ese
+-->
+<html>
+<head>
+	<title>Optimising Ticket Management</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+</head>
+
+<body class="is-preload"></body>
+<header class="custom-header">
+	<div class="inner">
+		<ul class="icons">
+			<li>Claudio Eghosasere Enobas Ese</li>
+			<li><a href="https://www.linkedin.com/in/claudioenobas/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/claudioen" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto:claudioenobas@gmail.com" target="_top" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</div>
+</header>
+
+<br/>
+<div class="container">
+	<h1 class="article-title">Optimising Ticket Management</h1>
+
+	<p class="article-subtitle">
+		Efficient service desk management is an important challenge that many companies face while the volume of tickets they receive surpasses manageable thresholds. Recently, I have had an opportunity to support my company's service desk team, which was receiving in excess of 3,000 tickets each month-both internally from employees across global offices and externally from customers. Herein, I will narrate our approach to overcoming this challenge, the solutions we adopted, and some key learning for me along the way.
+	
+	<div class="custom-tag">
+		<span class="tags">Zendesk</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Python</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">SQL Server</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Power BI</span>
+	</div>
+	</p>
+	<div class="center-responsive">
+		<img src="images/articles/servicedesk.jpg" alt="Service Desk" class="fixed-image" style="width: 1400px; height: 200px;"/>
+	</div><br/>
+	<section>
+
+	<h2>The Challenge: Inefficient Ticket Management</h2>
+	<p class="article-content">
+		The service desk manager approached us with a request to optimize resource usage and streamline processes. Key pain points included high ticket volume, which made focusing on recurring problems very difficult; inefficient use of resources; lack of insight into data to identify trends and bottlenecks; and no centralized documentation for known issues. These were the issues that prevented this team from performing at the top.
+	</p>
+	</section>
+
+	<section>
+	<h2>The Solution: An Integrated System for Analysis and Reporting</h2>
+	<p class="article-content">
+		To address these challenges, we developed a solution leveraging Zendesk APIs, Python, SQL Server, and Power BI. Here is how we approached it:
+		<br/>
+		<h3>Data Extraction from Zendesk</h3>
+		We utilized Zendesk’s APIs to programmatically extract ticket data. Using Python, we automated data retrieval and captured key fields such as problem types, resolution times, and departments involved. This provided us with the raw data necessary for analysis.
+		<br/>
+		<h3>Creating a SQL Server Database</h3>
+		The extracted data was transferred into a SQL Server database, allowing us to structure it effectively. This step ensured that the data was organized and ready for further processing, forming the backbone of the solution.
+		<br/>
+		<h3>Cleaning and Transforming Data in SQL</h3>
+		We ran several queries to clean and transform the data. Duplicate entries and inconsistencies were removed, tickets were categorized based on problem type and priority, and useful metrics such as average resolution times and ticket volume by category were calculated. This process was critical for ensuring the accuracy and reliability of the insights.
+
+		<h3>Building a Dashboard with Power BI</h3>
+		After preparing the data, we imported it into Power BI to create an interactive dashboard. The dashboard offered clear visualizations of ticket volumes, trends, and critical areas requiring attention. It also provided detailed reports on team performance and opportunities for improvement. To keep the information current, the dashboard was set to refresh every four hours.
+	</p>
+	</section>
+
+	<section>
+		<h2>Results Achieved</h2>
+		<p class="article-content">
+			The implementation of this solution brought significant benefits to the service desk team. By categorizing tickets, we identified recurring problems and created a manual for resolving them efficiently. This allowed the team to focus on more complex issues while reducing time spent on repetitive tasks. The real-time dashboard enabled the manager to monitor ticket statuses and team performance effectively, making it easier to communicate and collaborate with other departments. Additionally, automated data analysis reduced the time spent on manual reporting, enabling faster and better decision-making.
+		</p>
+		</section>
+
+		<section>
+			<h2>Lesson Learned</h2>
+			<p class="article-content">
+				This project offered several valuable takeaways. Collaborating across teams emphasized the importance of communication to understand the needs of different stakeholders. I also learned that clean and well-structured data is the foundation of any successful analysis and that investing time in this phase is crucial. Finally, I saw how impactful a well-designed dashboard can be in helping decision-makers quickly grasp complex information and act on it.
+			</p>
+			</section>
+
+			<section>
+				<h2>Conclusion</h2>
+				<p class="article-content">
+					This project was a rewarding opportunity to apply technical and problem-solving skills to a real-world challenge. By combining tools like Python, SQL Server, and Power BI, we turned a complex issue into a practical, scalable solution. I’m proud to have contributed to improving the operational efficiency of the service desk and gained new skills that I’m confident will be useful in future projects.
+				</p>
+				</section>
+<br/><br/><br/>
+	<footer>
+		<p>&copy; 2025 Claudio Eghosasere Enobas Ese</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	All right reserved to Claudio Eghosasere Enobas Ese
+-->
+<html>
+<head>
+	<title>Ukulele Tuesday</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+</head>
+
+<body class="is-preload"></body>
+<header class="custom-header">
+	<div class="inner">
+		<ul class="icons">
+			<li>Claudio Eghosasere Enobas Ese</li>
+			<li><a href="https://www.linkedin.com/in/claudioenobas/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://github.com/claudioen" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto:claudioenobas@gmail.com" target="_top" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</div>
+</header>
+
+<br/>
+<div class="container">
+	<h1 class="article-title">Ukulele Tuesday: Songs Data Analysis App</h1>
+
+	<p class="article-subtitle">
+		This project was developed as part of my Master's in Business Analytics at the UCD Michael Smurfit Business School. It was a group project for the Python programming course, where we designed and implemented a data analysis tool tailored to the needs of Ukulele Tuesday, a vibrant community of ukulele enthusiasts in Dublin.
+	
+	<div class="custom-tag">
+		<span class="tags">Python</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Pandas</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Tkinter
+		</span>
+	</div>
+	<div class="custom-tag">
+		<span class="tags">Matplotlib</span>
+	</div>
+	</p>
+	<div class="center-responsive">
+		<img src="images/projects/app.jpg" alt="National Rail Analysis" class="fixed-image" style="width: 1400px; height: 200px;"/>
+	</div><br/>
+	<section>
+
+	<h2>Understanding the Problem</h2>
+	<p class="article-content">
+		Ukulele Tuesday manages a rich database of songs played during their weekly gatherings. This data spans three CSV files:
+		<ul>
+			<li>tabdb.csv: A database with song metadata (e.g., title, year, difficulty).</li>
+			<li>playdb.csv: Records of when songs were played during weekly sessions.</li>
+			<li>requestdb.csv: Logs of who requested specific songs (e.g., audience or group).</li>
+		</ul>
+		The group needed a Python program to:
+		<ol>
+			<li>Query and filter this data easily based on song attributes or play dates.</li>
+			<li>Visualize trends and patterns in their song collection using clear and interactive charts.</li>
+			<li>Provide a user-friendly interface while handling errors gracefully.</li>
+		</ol>
+		These functionalities would help them improve their playlists and make data-driven decisions about their performances.
+	</p>
+	</section>
+
+	<section>
+	<h2>Developing the Solution</h2>
+	<p class="article-content">
+		As a team, we collaborated to design and build a robust solution, ensuring it met the group’s requirements while showcasing our skills in Python and data analytics.
+		<div class="center-responsive">
+			<img src="images/projects/app1.png" alt="Centered Image" style="width: 700px; height: 300px;"/>
+		</div><br/>
+		<h3>Core Features</h3>
+		<ul>
+			<li><strong>Dynamic Querying:</strong> The tool allows users to filter songs by attributes like difficulty, year, language, and date range. Results are displayed in customizable tables, making data exploration easy and intuitive.</li>
+			<li><strong>Error Handling:</strong> The program checks for missing columns, incorrect data types, and invalid file paths, ensuring a smooth user experience.</li>
+			<li><strong>Interactive Outputs:</strong> Results are displayed in tables where users can customize columns and sort the data.</li>
+		</ul>
+		<div class="center-responsive">
+			<img src="images/projects/app2.png" alt="Centered Image" style="width: 700px; height: 300px;"/>
+		</div><br/>
+
+		<h3>Data Visualizations</h3>
+		To make the data more actionable, the tool generates several plots using matplotlib:
+		<ul>
+			<li><strong>Histograms:</strong> Distribution of song difficulty levels, Distribution of song durations.</li>
+			<li><strong>Bar Charts:</strong> Songs grouped by language, Songs grouped by decade, Songs grouped by tab source (e.g., new, old, or offline).</li>
+			<li><strong>Line Charts:</strong> Cumulative trends of songs played over time.</li>
+			<li><strong>Pie Charts:</strong> Gender distribution of lead vocalists.</li>
+		</ul>
+		<div class="center-responsive">
+			<img src="images/projects/app3.png" alt="Centered Image" style="width: 700px; height: 300px;"/>
+		</div><br/>
+		These visualizations allowed Ukulele Tuesday to quickly identify popular trends, analyze diversity in their collection, and make strategic adjustments to their song selection.
+	</p>
+	</section>
+
+	<section>
+		<h2>Results and Impact</h2>
+		<p class="article-content">
+			The program delivered significant value to Ukulele Tuesday by transforming raw data into meaningful insights. Some key outcomes include:
+			<ul>
+				<li><strong>Better Playlist Management:</strong> They can now identify frequently played or rarely requested songs and make more informed decisions about their weekly performances.</li>
+				<li><strong>Deeper Insights:</strong> Visualizations revealed patterns such as the dominance of certain song languages and variations in song difficulty levels, helping the group maintain a balanced and engaging collection.</li>
+				<li><strong>Ease of Use:</strong> With a clean interface and robust error handling, the tool was intuitive even for users with minimal technical expertise.</li>
+			</ul>
+		</p>
+		</section>
+
+		<section>
+			<h2>Reflections and Future Improvements</h2>
+			<p class="article-content">
+				This project not only met the group’s requirements but also demonstrated our ability to deliver user-focused solutions. While the tool is fully functional, there are opportunities for future enhancements:
+				<ul>
+					<li><strong>Automated Reports:</strong> The ability to generate PDF summaries of visualizations for easier sharing.</li>
+					<li><strong>Advanced Filtering:</strong> Adding more dynamic filters, such as grouping data by custom categories.</li>
+				</ul>
+			</p>
+			</section>
+
+			<section>
+				<h2>Final Thoughts & Privacy Note</h2>
+				<p class="article-content">
+					This group project demonstrates not only my technical skills in Python and data visualization but also my ability to collaborate effectively and deliver practical solutions in a real-world context. It was a nice experience, combining technical challenges with user-centered design.<br/><br/>
+					For privacy reasons, the datasets used in this project cannot be shared. However, I am available to provide further details about the project and discuss the methodology, technical implementation, and key insights upon request.
+				</p>
+				</section>
+<br/><br/><br/>				
+	<footer>
+		<p>&copy; 2025 Claudio Eghosasere Enobas Ese</p>
+	</footer>
+</body>
+
+</html>
