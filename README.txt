@@ -1,33 +1,23 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Welcome to my portfolio! I’m a data professional with a passion for uncovering insights from data. My journey in this field started with a curiosity for NBA game stats, which led me to develop technical skills in Python, SQL, and visualization tools like Power BI and Tableau.
 
+I’ve had the opportunity to work in multinational and tech-driven companies, collaborating with diverse teams to improve workflows and enhance data quality.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+Key Projects:
+- Ukulele Tuesday - Songs Data Analysis Application
+In my Master's in Business Analytics, I worked on a group project for the creation of a Python tool for data analysis and visualization relating to Ukulele Tuesday. This was a balance of technical skills and focusing on the user experience.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- National Rail Analysis
+From National Rail, I analyzed the data and extracted the relevant insight into the main train operation across England, Scotland, and Wales using Excel, Power BI, and Python.
 
-(* = Not included)
+Published Articles:
+- How to Optimize Data Migration and BI on Azure: Lessons and Opportunities
+I wrote about improving data integration and visualization on Azure, covering tools like Azure Data Factory and strategies for cost optimization.
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+- 10 Essential HR KPIs to Monitor: Insights from an HR Analyst
+This article explores how data and key performance indicators will help companies make wiser, evidence-based decisions in human resources.
 
-AJ
-aj@lkn.io | @ajlkn
+Book Reviews:
+I enjoy reading books on data analysis, SQL, Power BI, Python, and similar tools. My portfolio contains some of the books that helped me in my professional development.
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Learn More!
+Visit my full portfolio here: claudioen.github.io
